@@ -1,6 +1,6 @@
 # Scrap Quora Questions by Spaces
 
-Clone this repository and just run the code in terminal:
+Clone this repository and just run this code in terminal:
 
     python quora-scraping.py
 You can specify which topics you want to grab by changing the contents of the following variable on line 10.
