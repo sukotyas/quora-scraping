@@ -21,10 +21,11 @@ for topic in topics:
     driver.get("https://"+topic+".quora.com/questions")
 
     #wait for 5 seconds for the automated browsers to load the whole contents including the javascripts.
-    #this depends on your internet connection, you can reduce the number if you have faster internet connection than me xD
+    #this depends on your internet connection, you can reduce the value if you have faster internet connection
     time.sleep(5)
 
     #specify waiting time before scrolling again
+    #again, you can reduce the following value if you have faster internet connection
     waiting_time = 5 #in seconds
     prev_height = 0
 
